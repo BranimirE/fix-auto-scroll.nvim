@@ -1,4 +1,4 @@
-local utils = require('fix-auto-scroll.nvim.utils')
+local utils = require('fix-auto-scroll.utils')
 local M = {}
 
 ---@diagnostic disable-next-line: unused-local
