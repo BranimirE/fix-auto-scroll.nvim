@@ -9,7 +9,7 @@ This plugin is based on the idea exposed in this [post](https://vim.fandom.com/w
 
 ## ⚡️ Requirements
 
-- Currently, this plugin was only tested on the Neovim version **0.10.0**. This number will be updated as soon it is tested in other versions
+- Neovim >= **0.7.2**. This number will be updated as soon it is tested in other versions
 
 ## 📦 Installation
 
@@ -23,6 +23,15 @@ Install the plugin with your preferred package manager:
   config = true,
   event = 'VeryLazy'
 }
+```
+
+### [vim-plug](https://github.com/junegunn/vim-plug)
+```vimrc
+call plug#begin()
+Plug 'BranimirE/fix-auto-scroll.nvim'
+call plug#end()
+
+lua require('fix-auto-scroll').setup()
 ```
 
 ## ⚙️ Configuration
